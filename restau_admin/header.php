@@ -19,7 +19,7 @@
 </head>
 <body style="background-color:#eeeeee">
 
-<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+<nav class="navbar navbar-expand-lg bg-primary navbar-dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="index.php">Food Delivery - Restaurant Admin</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -51,13 +51,16 @@
     <!-- Links -->
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a href="user_list.php" class="nav-link">จัดการผู้ใช้</a>
-      </li>
-      <li class="nav-item">
-        <a href="restau_type.php" class="nav-link">จัดการประเภทร้านอาหาร</a>
-      </li>
-      <li class="nav-item">
         <a href="restaurant.php" class="nav-link">จัดการร้านอาหาร</a>
+      </li>
+      <li class="nav-item">
+        <a href="restaurant.php" class="nav-link">จัดการหมวดหมู่อาหาร</a>
+      </li>
+      <li class="nav-item">
+        <a href="restaurant.php" class="nav-link">จัดการอาหาร</a>
+      </li>
+      <li class="nav-item">
+        <a href="restaurant.php" class="nav-link">รายการสั่งซื้อ</a>
       </li>
       <li class="nav-item">
         <a href="report.php" class="nav-link">รายงาน</a>
